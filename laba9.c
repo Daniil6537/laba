@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Процедура добавления цифры D справа к числу K
 void AddRightDigit(int D, int *K) {
     *K = (*K) * 10 + D;
 }
